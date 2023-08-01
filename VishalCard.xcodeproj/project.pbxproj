@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA24BABA2A79386500923D2B /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA24BAB92A79386500923D2B /* Pacifico-Regular.ttf */; };
+		AA24BABD2A79567A00923D2B /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA24BABC2A79567A00923D2B /* InfoView.swift */; };
 		AA7580F42A792D7800E89940 /* VishalCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7580F32A792D7800E89940 /* VishalCardApp.swift */; };
 		AA7580F62A792D7800E89940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7580F52A792D7800E89940 /* ContentView.swift */; };
 		AA7580F82A792D7900E89940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7580F72A792D7900E89940 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA24BAB92A79386500923D2B /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		AA24BABB2A793C6000923D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AA24BABC2A79567A00923D2B /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		AA7580F02A792D7800E89940 /* VishalCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VishalCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7580F32A792D7800E89940 /* VishalCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishalCardApp.swift; sourceTree = "<group>"; };
 		AA7580F52A792D7800E89940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA24BAB82A79385900923D2B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AA24BAB92A79386500923D2B /* Pacifico-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		AA7580E72A792D7800E89940 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +64,13 @@
 		AA7580F22A792D7800E89940 /* VishalCard */ = {
 			isa = PBXGroup;
 			children = (
+				AA24BABB2A793C6000923D2B /* Info.plist */,
+				AA24BAB82A79385900923D2B /* Font */,
 				AA7580F32A792D7800E89940 /* VishalCardApp.swift */,
 				AA7580F52A792D7800E89940 /* ContentView.swift */,
 				AA7580F72A792D7900E89940 /* Assets.xcassets */,
 				AA7580F92A792D7900E89940 /* Preview Content */,
+				AA24BABC2A79567A00923D2B /* InfoView.swift */,
 			);
 			path = VishalCard;
 			sourceTree = "<group>";
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA24BABA2A79386500923D2B /* Pacifico-Regular.ttf in Resources */,
 				AA7580FB2A792D7900E89940 /* Preview Assets.xcassets in Resources */,
 				AA7580F82A792D7900E89940 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7580F62A792D7800E89940 /* ContentView.swift in Sources */,
+				AA24BABD2A79567A00923D2B /* InfoView.swift in Sources */,
 				AA7580F42A792D7800E89940 /* VishalCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = 9P58HZ7L2Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VishalCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = 9P58HZ7L2Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VishalCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
